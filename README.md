@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/t415a7gmtr1opask/branch/master?svg=true)](https://ci.appveyor.com/project/CollectorHeimdal/serilog-enrichers-author/branch/master)
 # serilog-enrichers-author
 
 Includes the serilog enricher AuthorEnricher that will add an "Author" object to each log message.
