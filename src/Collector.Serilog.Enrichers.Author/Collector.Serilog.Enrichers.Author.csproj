@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;net45</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Team Heimdal</Authors>
+    <Company>Collector Bank AB</Company>
+    <Description>A package for enriching author information on log messages.</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://raw.githubusercontent.com/collector-bank/serilog-enrichers-author/master/icon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/collector-bank/serilog-enrichers-author</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/collector-bank/serilog-enrichers-author</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.5.0" />
+  </ItemGroup>
+
+</Project>
