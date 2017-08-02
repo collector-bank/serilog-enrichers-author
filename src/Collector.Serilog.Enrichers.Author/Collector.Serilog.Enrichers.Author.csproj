@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard1.6;net45</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Team Heimdal</Authors>
     <Company>Collector Bank AB</Company>
     <Description>A package for enriching author information on log messages.</Description>
@@ -11,6 +11,10 @@
     <PackageIconUrl>https://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/collector-bank/serilog-enrichers-author</RepositoryUrl>
     <PackageProjectUrl>https://github.com/collector-bank/serilog-enrichers-author</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Collector.Serilog.Enrichers.Author.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
