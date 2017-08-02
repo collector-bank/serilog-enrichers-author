@@ -9,7 +9,14 @@
     public class AuthorEnricher : ILogEventEnricher
     {
         private readonly IDictionary<string, string> _dictionary;
-        
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AuthorEnricher"/> class.
+        /// </summary>
+        /// <param name="teamName">Team (e.g. "Heimdal" or "Ace of Space")</param>
+        /// <param name="department">Department (e.g. "Payments" or "Solutions")</param>
+        /// <param name="repositoryUrl">Repository (The url to where the source code can be found)</param>
+        /// <param name="serviceGroup">ServiceGroup (If this service is part of a larger group of services, then the name of that group, e.g. "Edge" or "Loans")</param>
         public AuthorEnricher(string teamName, string department, Uri repositoryUrl = null, string serviceGroup = null)
         {
             if (teamName == null)

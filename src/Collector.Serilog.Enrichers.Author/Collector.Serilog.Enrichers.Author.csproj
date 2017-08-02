@@ -13,6 +13,10 @@
     <PackageProjectUrl>https://github.com/collector-bank/serilog-enrichers-author</PackageProjectUrl>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Collector.Serilog.Enrichers.Author.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Serilog" Version="2.5.0" />
   </ItemGroup>
